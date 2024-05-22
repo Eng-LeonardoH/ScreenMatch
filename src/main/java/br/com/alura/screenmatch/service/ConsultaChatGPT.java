@@ -5,7 +5,7 @@ import com.theokanning.openai.service.OpenAiService;
 
 public class ConsultaChatGPT {
     public static String obterResposta(String texto) {
-        OpenAiService service = new OpenAiService("API-TOKEN");
+        OpenAiService service = new OpenAiService("API-Token");
 
         CompletionRequest requisicao = CompletionRequest.builder()
                 .model("gpt-3.5-turbo-instruct")
