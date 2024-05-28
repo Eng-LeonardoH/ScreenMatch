@@ -7,8 +7,8 @@ public enum Categoria {
     DRAMA("Drama", "Drama"),
     CRIME("Crime", "Crime");
 
-    private String categoriaOmdb;
-    private String categoriaPortugues;
+    private final String categoriaOmdb;
+    private final String categoriaPortugues;
 
     Categoria(String categoriaOmdb, String categoriaPortugues){
         this.categoriaOmdb = categoriaOmdb;
